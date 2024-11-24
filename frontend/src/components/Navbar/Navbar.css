@@ -1,23 +1,18 @@
 .custom-navbar {
-    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
-    position: absolute; /* Position it on top of the hero */
-    width: 100%; /* Full width */
-    z-index: 10; /* Ensure it's above the hero image */
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    z-index: 10;
   }
 
-.custom-navbar .navbar-brand,
-.custom-navbar .nav-link {
+.custom-navbar .navbar-brand {
   color: white;  
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
-.custom-navbar .nav-link:hover {
-  color: #2d8b5b !important; /* Slightly darker green on hover */
-}
-
 .custom-navbar {
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .create-btn {
