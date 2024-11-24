@@ -1,0 +1,35 @@
+.job-posting-section {
+    padding: 50px 0;
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .job-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .job-card:hover {
+    transform: scale(1.03); /* Slight zoom on hover */
+  }
+  
+  .job-role {
+    color: #46bc7f; /* Consistent green color for the job role */
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button-group .btn {
+    width: 45%; /* Equal button widths */
+  }
+  
